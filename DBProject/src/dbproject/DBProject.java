@@ -31,6 +31,7 @@ public class DBProject {
             Class.forName("org.postgresql.Driver");
         } catch (java.lang.ClassNotFoundException e) {
             System.out.println(e);
+            System.out.println("her");
         }
 
 
